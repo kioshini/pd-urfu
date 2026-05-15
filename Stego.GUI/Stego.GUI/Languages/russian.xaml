@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--Name of the language-->
+    <sys:String x:Key="Language">Русский</sys:String>
+    
+    <!--Header-->
+    <sys:String x:Key="TabHideText">Спрятать текст</sys:String>
+    <sys:String x:Key="TabShowText">Извлечь текст</sys:String>
+    <sys:String x:Key="Theme">Установить Тему</sys:String>
+
+    <!--Sidebar-->
+    <sys:String x:Key="SPreview">Предпросмотр</sys:String>
+    <sys:String x:Key="SFile">Файл</sys:String>
+    <sys:String x:Key="SFormat">Формат:</sys:String>
+    <sys:String x:Key="SSize">Размер:</sys:String>
+    <sys:String x:Key="SDimensions">Разрешение:</sys:String>
+    <sys:String x:Key="STip">Совет</sys:String>
+    <sys:String x:Key="SSelectImage">• Выберите изображение (PNG/JPG)</sys:String>
+    <sys:String x:Key="SEnterText">• Введите текст</sys:String>
+    <sys:String x:Key="SPressButton">• Нажмите кнопку сохранения</sys:String>
+    <sys:String x:Key="SSaveImage">• Данные сохраняются в EXIF</sys:String>
+
+    <!--FirstBox-->
+    <sys:String x:Key="FBTitle">1. Выберите изображение</sys:String>
+    <sys:String x:Key="FBButton">Выбрать файл</sys:String>
+    <sys:String x:Key="FBTip1">Перетащите изображение сюда</sys:String>
+    <sys:String x:Key="FBTip2">Поддерживаемые форматы: JPG, PNG, BMP, TIFF</sys:String>
+
+    <!--SecondBox SB1 is on tab 1/SB2 is on tab 2-->
+    <sys:String x:Key="SB1Title">2. Введите текст для скрытия</sys:String>
+    <sys:String x:Key="SB1Tip">Любой текст будет сохранён в EXIF (UserComment)</sys:String>
+    <sys:String x:Key="SB2Title">2. Сохраните извлечённый текст</sys:String>
+    <sys:String x:Key="SB2ButtonBig">Сохранить текст в файл</sys:String>
+
+    <!--ThirdBox-->
+    <sys:String x:Key="TBTitle">3. Сохраните изображение</sys:String>
+    <sys:String x:Key="TBButtonBig">Спрятать текст в изображение</sys:String>
+
+    <!--Common button in both second and third button-->
+    <sys:String x:Key="STBBrowse">Обзор</sys:String>
+
+    <!--ResultBox-->
+    <sys:String x:Key="RTitle">Результат</sys:String>
+    <sys:String x:Key="RTextBox">Нет данных</sys:String>
+
+</ResourceDictionary>

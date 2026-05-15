@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--Name of the language-->
+    <sys:String x:Key="Language">English</sys:String>
+    
+    <!--Header-->
+    <sys:String x:Key="TabHideText">Encode text</sys:String>
+    <sys:String x:Key="TabShowText">Extract text</sys:String>
+    <sys:String x:Key="Theme">Set theme</sys:String>
+
+    <!--Sidebar-->
+    <sys:String x:Key="SPreview">Preview</sys:String>
+    <sys:String x:Key="SFile">File</sys:String>
+    <sys:String x:Key="SFormat">Format:</sys:String>
+    <sys:String x:Key="SSize">Size:</sys:String>
+    <sys:String x:Key="SDimensions">Dimensions:</sys:String>
+    <sys:String x:Key="STip">Tip</sys:String>
+    <sys:String x:Key="SSelectImage">• Select Image (PNG/JPG)</sys:String>
+    <sys:String x:Key="SEnterText">• Enter text</sys:String>
+    <sys:String x:Key="SPressButton">• Press save button</sys:String>
+    <sys:String x:Key="SSaveImage">• Text is saved in EXIF</sys:String>
+
+    <!--FirstBox-->
+    <sys:String x:Key="FBTitle">1. Select image</sys:String>
+    <sys:String x:Key="FBButton">Select file</sys:String>
+    <sys:String x:Key="FBTip1">Drag image here</sys:String>
+    <sys:String x:Key="FBTip2">Supported formats: JPG, PNG, BMP, TIFF</sys:String>
+
+    <!--SecondBox SB1 is on tab 1/SB2 is on tab 2-->
+    <sys:String x:Key="SB1Title">2. Enter text for encoding</sys:String>
+    <sys:String x:Key="SB1Tip">Any text will be saved in EXIF (UserComment)</sys:String>
+    <sys:String x:Key="SB2Title">2. Save extracted text</sys:String>
+    <sys:String x:Key="SB2ButtonBig">Save text separately</sys:String>
+
+    <!--ThirdBox-->
+    <sys:String x:Key="TBTitle">3. Save Image</sys:String>
+    <sys:String x:Key="TBButtonBig">Encode text into image</sys:String>
+
+    <!--Common button in both second and third button-->
+    <sys:String x:Key="STBBrowse">Browse</sys:String>
+
+    <!--ResultBox-->
+    <sys:String x:Key="RTitle">Result</sys:String>
+    <sys:String x:Key="RTextBox">No information</sys:String>
+
+</ResourceDictionary>

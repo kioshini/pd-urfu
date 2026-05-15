@@ -1,0 +1,20 @@
+<Application x:Class="Stego.GUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--main copy, in case translator deleted some keys-->
+                <ResourceDictionary Source="Languages/russian.xaml"/>
+                <!--secondary copy where stuff is loaded-->
+                <ResourceDictionary Source="Languages/english.xaml"/>
+                
+                <!--main copy, in case translator deleted some keys-->
+                <ResourceDictionary Source="Themes/Light.xaml"/>
+                <!--secondary copy where stuff is loaded-->
+                <ResourceDictionary Source="Themes/Light.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>        
+    </Application.Resources>
+</Application>

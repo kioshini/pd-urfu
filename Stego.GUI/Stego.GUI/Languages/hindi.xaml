@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--Name of the language-->
+    <sys:String x:Key="Language">हिन्दी</sys:String>
+    
+    <!--Header-->
+    <sys:String x:Key="TabHideText">एन्कोड सेंटेंस</sys:String>
+    <sys:String x:Key="TabShowText">निकालें सेंटेंस</sys:String>
+    <sys:String x:Key="Theme">रूपरंग चुनें</sys:String>
+
+    <!--Sidebar-->
+    <sys:String x:Key="SPreview">प्राभ्यास</sys:String>
+    <sys:String x:Key="SFile">फाइल</sys:String>
+    <sys:String x:Key="SFormat">फार्मेट:</sys:String>
+    <sys:String x:Key="SSize">आकार:</sys:String>
+    <sys:String x:Key="SDimensions">आयाम:</sys:String>
+    <sys:String x:Key="STip">टिप</sys:String>
+    <sys:String x:Key="SSelectImage">• कृपया फोटो चुनें (PNG/JPG)</sys:String>
+    <sys:String x:Key="SEnterText">• शब्द लिखें</sys:String>
+    <sys:String x:Key="SPressButton">• सेव करने के लिए बटन दबाएं</sys:String>
+    <sys:String x:Key="SSaveImage">• अब शब्द फोटो में सेव हो गया है!</sys:String>
+
+    <!--FirstBox-->
+    <sys:String x:Key="FBTitle">१. कृपया फोटो चुनें</sys:String>
+    <sys:String x:Key="FBButton">फाइल चुनें</sys:String>
+    <sys:String x:Key="FBTip1">यहाँ फोटो डालें</sys:String>
+    <sys:String x:Key="FBTip2">सिर्फ फार्मेट JPG, PNG, BMP और TIFF काम करता है</sys:String>
+
+    <!--SecondBox SB1 is on tab 1/SB2 is on tab 2-->
+    <sys:String x:Key="SB1Title">२. शब्द लिखें एन्कोडिंग के लिए</sys:String>
+    <sys:String x:Key="SB1Tip">सारा टेक्स्ट सेव होगा EXIF में (UserComment)</sys:String>
+    <sys:String x:Key="SB2Title">२. निकाला हुआ टेक्स्ट को सेव करें</sys:String>
+    <sys:String x:Key="SB2ButtonBig">अलग से टेक्स्ट सेव करें</sys:String>
+
+    <!--ThirdBox-->
+    <sys:String x:Key="TBTitle">३. फोटो सेव करें</sys:String>
+    <sys:String x:Key="TBButtonBig">शब्द फोटो में एन्कोडिंग करो</sys:String>
+
+    <!--Common button in both second and third button-->
+    <sys:String x:Key="STBBrowse">फाइल ढूँढो</sys:String>
+
+    <!--ResultBox-->
+    <sys:String x:Key="RTitle">रिजल्ट</sys:String>
+    <sys:String x:Key="RTextBox">कुछ नहीं मिला</sys:String>
+
+</ResourceDictionary>

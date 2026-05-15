@@ -6,13 +6,11 @@ obj/
 .vs/
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
 
 # Visual Studio Code
 .vscode/
 
-# Compiled files
+# Компилированные файлы
 *.dll
 *.exe
 *.pdb
@@ -25,9 +23,6 @@ packages/
 .DS_Store
 Thumbs.db
 
-# Logs and temp files
+# Логи и временные файлы
 *.log
 *.tmp
-
-# Artifacts
-.artifacts/

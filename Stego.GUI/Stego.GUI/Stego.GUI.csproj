@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+                      <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Stego.Core\Stego.Core.csproj" />
     <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.11.0" />
   </ItemGroup>
 

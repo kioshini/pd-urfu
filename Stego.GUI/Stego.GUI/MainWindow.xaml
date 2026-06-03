@@ -11,7 +11,7 @@
 
     <Grid Margin="16">
         <TabControl Background="Transparent">
-            <TabItem Header="{DynamicResource TabShowText}"
+            <TabItem Header="{DynamicResource TabHideText}"
                 Background="{DynamicResource SecondaryButtonBrush}">
                 <Grid Margin="12">
                     <Grid.ColumnDefinitions>
@@ -200,7 +200,7 @@
                 </Grid>
             </TabItem>
 
-            <TabItem Header="{DynamicResource TabHideText}" 
+            <TabItem Header="{DynamicResource TabShowText}" 
             Background="{DynamicResource SecondaryButtonBrush}" 
             Padding="6,2,6,2">
                 <Grid Margin="12">

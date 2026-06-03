@@ -1,33 +1,9 @@
-# Build outputs
-bin/
-obj/
-
-# Visual Studio
 .vs/
+**/bin/
+**/obj/
+**/*.lscache
 *.user
 *.suo
-*.userosscache
+*.rsuser
+*.userprefs
 *.sln.docstates
-
-# Visual Studio Code
-.vscode/
-
-# Compiled files
-*.dll
-*.exe
-*.pdb
-
-# NuGet
-packages/
-*.nupkg
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Artifacts
-.artifacts/
